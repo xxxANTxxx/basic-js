@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * ]) => 3`
  *
  */
-function countCats(/* matrix */) {
+function countCats(array) {
   let numCats = 0
   array.forEach(element => {
     element.forEach(element => {
